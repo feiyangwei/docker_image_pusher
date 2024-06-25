@@ -1,3 +1,4 @@
+nginx
 --platform=linux/arm64 redis:7.2.1
 --platform=linux/arm64 rabbitmq:3.8.0
 --platform=linux/arm64 nginx:1.17.4
@@ -5,5 +6,3 @@
 --platform=linux/arm64 jitsi/jvb:stable-9111
 --platform=linux/arm64 jitsi/prosody:stable-9111
 --platform=linux/arm64 jitsi/web:stable-9111
---platform=linux/arm64 moby/buildkit:buildx-stable-1
---platform=linux/arm64 imdt/bigbluebutton:3.0.x-develop
